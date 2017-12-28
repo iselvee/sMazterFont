@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>iconfont</title>
+	<style>
+		body,html{
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			font-family: sans-serif;
+		}
+		.svgtofont-container{
+			padding: 10px 20px;
+		}
+		.preview {
+			line-height: 2em;
+		}
+
+		.preview__icon {
+			display: inline-block;
+			width: 32px;
+			text-align: center;
+		}
+
+		.icon {
+			display: inline-block;
+			font-size: 16px;
+		}
+		.footer{
+			background: #1faeda;
+		    padding: 5px 0px;
+		    margin: 0 auto;
+		    text-align: center;
+		    font-size: 12px;
+		    display: block;
+		    position: fixed;
+		    width: 100%;
+		    bottom: 0px;
+		}
+
+		@font-face {
+	font-family: "iconfont";
+	src: url("iconfont.eot?1a06a28472f4f4acd75a6dec20942466?#iefix") format("embedded-opentype"),
+url("iconfont.woff2?1a06a28472f4f4acd75a6dec20942466") format("woff2"),
+url("iconfont.woff?1a06a28472f4f4acd75a6dec20942466") format("woff");
+}
+
+.icon {
+	line-height: 1;
+}
+
+.icon:before {
+	font-family: iconfont !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.icon-sMazterblue:before {
+	content: "\f101";
+}
+.icon-sMaztericon:before {
+	content: "\f102";
+}
+.icon-sMaztersquare:before {
+	content: "\f103";
+}
+
+	</style>
+</head>
+<body>
+	<div class="svgtofont-container">
+		<h1>iconfont</h1>
+		<div class="preview">
+			<span class="preview__icon">
+				<span class="icon icon-sMazterblue"></span>
+			</span>
+			<span>sMazterblue</span>
+		</div>
+		<div class="preview">
+			<span class="preview__icon">
+				<span class="icon icon-sMaztericon"></span>
+			</span>
+			<span>sMaztericon</span>
+		</div>
+		<div class="preview">
+			<span class="preview__icon">
+				<span class="icon icon-sMaztersquare"></span>
+			</span>
+			<span>sMaztersquare</span>
+		</div>
+	</div>
+	<div class="footer">fonts generated with &hearts; by http://svgtofont.com/</div>
+</body>
+</html>

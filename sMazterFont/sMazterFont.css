@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "sMazterFont";
+	src: url("sMazterFont.eot?5790d4ace34d5b5ca9cd923df4c97279?#iefix") format("embedded-opentype"),
+url("sMazterFont.woff2?5790d4ace34d5b5ca9cd923df4c97279") format("woff2"),
+url("sMazterFont.woff?5790d4ace34d5b5ca9cd923df4c97279") format("woff");
+}
+
+.icon {
+	line-height: 1;
+}
+
+.icon:before {
+	font-family: sMazterFont !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.icon-sMazterblue:before {
+	content: "\f101";
+}
+.icon-sMaztericon:before {
+	content: "\f102";
+}
+.icon-sMaztersquare:before {
+	content: "\f103";
+}
