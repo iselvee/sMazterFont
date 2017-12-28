@@ -18,10 +18,13 @@ url("sMazterFont.woff?5790d4ace34d5b5ca9cd923df4c97279") format("woff");
 
 .icon-sMazterblue:before {
 	content: "\f101";
+	font-size: 65px;
 }
 .icon-sMaztericon:before {
 	content: "\f102";
+	font-size: 65px;
 }
 .icon-sMaztersquare:before {
 	content: "\f103";
+	font-size: 65px;
 }
