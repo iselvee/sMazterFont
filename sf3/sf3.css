@@ -12,7 +12,6 @@ url("sf3.woff?2e278a382cf90dc54ef2e83568ee1fe2") format("woff");
 .sf3:before {
 	font-family: sf3 !important;
 }
-
 .sf3-appmaster:before {
 	content: "\f101";
 }
